@@ -19,9 +19,9 @@ module.exports = {
   //Lavalink
    Lavalink: {
     id: "Main",
-    host: "lavalinkgaara.herokuapp.com/",
+    host: "gaaralink.herokuapp.com",
     port: 80,
-    pass: "DYNAMICPASSWORD", 
+    pass: "gaaramusic", 
   },
   
   //Alternate Lavalink
