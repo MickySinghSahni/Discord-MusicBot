@@ -37,9 +37,9 @@ module.exports = {
             ).setDescription(`${Commands.join("\n")}
   
   Discord Music Bot Version: v${require("../package.json").version}
-  [✨ Support Server](${
+  [Support Server](${
     client.config.SupportServer
-  }) | [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot) | By [SudhanPlayz](https://github.com/SudhanPlayz)`);
+  }) | By [Micky Sahni](https://discordapp.com/users/612803327675334673) - <@612803327675334673>`);
     if (!args[0]) message.channel.send(Embed);
     else {
       let cmd =
@@ -120,7 +120,7 @@ SlashCommand: {
   Discord Music Bot Version: v${require("../package.json").version}
   [✨ Support Server](${
     client.config.SupportServer
-  }) | [GitHub](https://github.com/SudhanPlayz/Discord-MusicBot) | By [SudhanPlayz](https://github.com/SudhanPlayz)`);
+  }) | By [Micky Sahni](https://discordapp.com/users/612803327675334673) - <@612803327675334673>`);
       if (!args) return interaction.send(Embed);
       else {
         let cmd =
