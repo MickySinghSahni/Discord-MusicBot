@@ -9,12 +9,12 @@ module.exports = {
   ClientSecret: process.env.Discord_ClientSecret || "", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
-  "24/7": true, //If you want the bot to be stay in the vc 24/7
+  "24/7": false, //If you want the bot to be stay in the vc 24/7
   CookieSecret: "Pikachu is cute", //A Secret like a password
   IconURL:
     "https://media.discordapp.net/attachments/855412766637555733/862684024652038154/BlushingBrownLamb-max-1mb.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
-  Permissions: 8589934591, //Bot Inviting Permissions
-  Website: process.env.Website || "http://localhost", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
+  Permissions: 2205272384, //Bot Inviting Permissions
+  Website: process.env.Website || "https://gaaramusical.herokuapp.com/api/callback", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
 
   //Lavalink
    Lavalink: {
