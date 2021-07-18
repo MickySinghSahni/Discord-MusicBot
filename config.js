@@ -14,7 +14,7 @@ module.exports = {
   IconURL:
     "https://media.discordapp.net/attachments/855412766637555733/862684024652038154/BlushingBrownLamb-max-1mb.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   Permissions: 2205272384, //Bot Inviting Permissions
-  Website: process.env.Website || "https://gaaramusical.herokuapp.com/api/callback", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
+  Website: process.env.Website || "https://localhost/api/callback", //Website where it was hosted at includes http or https || Use "0.0.0.0" if you using Heroku
 
   //Lavalink
    Lavalink: {
